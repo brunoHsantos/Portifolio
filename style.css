@@ -598,7 +598,7 @@ footer .cols .news-col form button i{
     }
 
     .main .texts{
-        margin-left: 190px; 
+        margin-left: 160px; 
     }
 
 
@@ -626,7 +626,7 @@ footer .cols .news-col form button i{
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     
     .navbar{
         justify-content: center;
@@ -642,12 +642,9 @@ footer .cols .news-col form button i{
     }
 
     .main{
-        
-        margin-top: 50px;
+        margin-top: 60px;
         justify-content: center; 
     }
-
-
 
     .main h4{
         font-size: 20px;
@@ -656,7 +653,6 @@ footer .cols .news-col form button i{
 
     .main p.title{
         font-size: 26px;
-        
     }
 
     .main p.subtitle{
@@ -665,8 +661,8 @@ footer .cols .news-col form button i{
 
     .main img{
         margin-top: 40px;
-        width: 300px;
-        height: 300px;
+        margin-right: 100px;
+
         justify-content: center;
     }
 
@@ -707,7 +703,7 @@ footer .cols .news-col form button i{
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 
     .navbar ul {
         display: none;
@@ -792,25 +788,37 @@ footer .cols .news-col form button i{
 
 }
 
-@media screen and (max-width: 500px) {
-
-    .main{
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centraliza os elementos na horizontal */
-        justify-content: center; /* Centraliza os elementos na vertical */
-        margin-top: 60px;   
-        margin-right: none;
+@media screen  and (max-width: 600px){
+    
+    .main {
+        margin-top: 100px;
     }
+    .main .texts h4{
+        font-size: 18px;
+    }
+    
+    .main .texts p.title{
+        font-size: 23px ;
+    }
+
+    .main .texts p.subtitle{
+        font-size: 14px ;
+    } 
+
+
+
+}
+
+@media screen and (max-width: 530px) {
 
     .main .texts h4{
-        font-size: 20px;
+        font-size: 17px;
     }
     .main .texts p.title{
-        font-size: 20px;
+        font-size: 23px;
     }
     .main .texts p.subtitle{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .main img{
@@ -819,6 +827,13 @@ footer .cols .news-col form button i{
         width: 400px;
         height: 400px;
     }
+
+
+    #projetos{
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+
 
     .divisor{
         padding: 0 20px;
@@ -860,91 +875,105 @@ footer .cols .news-col form button i{
     }
 
 
+    #about {
+        position: relative;
+        margin-top: 330px;
+    }
 
-    footer .start{
-        position: absolute;
-        height: 15.2%;
-        display: flex;
-        align-items: center; /* Centraliza os elementos na horizontal */
-        justify-content: center; /* Centraliza os elementos na vertical */
-        
-    }
-    footer .start h3{
-        display: none;
-    }
-    footer .start button{
-        margin-right: 70px;
-    }
-    
-    
-    
 
+    #skills {
+        margin-top: 90px;
+    }
+    
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
     
-
+    .hire-btn {
+        margin-top: 10px;
+    }
     .main {
         margin-top: 120px;
     }
     .main img{
         margin-left: 10px;
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
         align-items: center;
     }
 
-    .main p.subtitle{
+    .main .texts h4{
+        font-size: 16px;
+    }
+    .main .texts p.title{
+        font-size: 20px;
+    }
+    .main .texts p.subtitle{
+        font-size: 11px;
+    }
+
+    footer .start {
+        height: 89PX;
+        display: flex;
+    }
+
+    footer .start h3{
+        display: none;
+    }
+
+    footer .start button{
+        margin-right: 75px;
+    }
+
+   
+
+
+
+} 
+
+@media screen and (max-width: 410px) {
+    
+    .main {
+        margin-top: 120px;
+    }
+    .main img{
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+    }
+
+    .main .texts h4{
+        font-size: 15px;
+    }
+    .main .texts p.title{
+        font-size: 18px;
+    }
+    .main .texts p.subtitle{
         font-size: 10px;
     }
 
-    .divisor{
-        padding: 0 10px;
-    }
-  
-    .divisor .item{
-       position: relative;
-       background: #292b2e;
-       height: 400px;
-       width: 100%;
-    }    
-
-    .divisor .item .infoQa {
-        width: 100%;
-
-    }
-
-    .divisor .item .infoQa p {
-        width: 330px;
-    }
-
-    .divisor .item .infoQa h3{
-        width: 329px;
-        margin-bottom: 30px;
-    }
-
-    .divisor .item .infoQa #bordao p{
-        margin-top: 0px;
-    }
-
-
-    .divisor .item .infoTask p {
-        width: 330px;
-        margin-bottom: 0px;
-    }
-
-    .divisor .item .infoTcc p {
-        width: 330px;
-    }
-
-
-    #about {
-        margin-top: 400px;
-    }
-
-    .about .info p{
-        font-size: 15px;
-    }
-
+    .seprator{
+        margin: 0px 21px 0px;
+        padding: 10px 20px;
     
+    }
+
+    .skills{
+        margin-top: 30px;
+    }
+
+
+
+} 
+
+
+@media screen and (max-height: 900px) and (max-width: 390px){
+    
+    .divisor {
+        height: 900px;
+    }
+    #about {
+        position: relative;
+    }
 }
