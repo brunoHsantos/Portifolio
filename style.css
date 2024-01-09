@@ -912,6 +912,10 @@ footer .cols .news-col form button i{
         font-size: 11px;
     }
 
+    .divisor{
+        padding: 0 10px;
+    }
+
     footer .start {
         height: 89PX;
         display: flex;
@@ -926,9 +930,6 @@ footer .cols .news-col form button i{
     }
 
    
-
-
-
 } 
 
 @media screen and (max-width: 410px) {
@@ -938,10 +939,12 @@ footer .cols .news-col form button i{
     }
     .main img{
         margin-left: 10px;
-        width: 300px;
-        height: 300px;
+        width: 340px;
+        height: 340px;
         align-items: center;
     }
+
+
 
     .main .texts h4{
         font-size: 15px;
@@ -951,6 +954,10 @@ footer .cols .news-col form button i{
     }
     .main .texts p.subtitle{
         font-size: 10px;
+    }
+
+    .divisor{
+        padding: 0 10px;
     }
 
     .seprator{
@@ -967,8 +974,79 @@ footer .cols .news-col form button i{
 
 } 
 
+@media screen and (max-width: 373px) {
+    
+    .main {
+        margin-top: 120px;
+    }
+    .main img{
+        margin-left: 10px;
+        width: 340px;
+        height: 340px;
+        align-items: center;
+    }
 
-@media screen and (max-height: 900px) and (max-width: 390px){
+    .main .texts h4{
+        font-size: 14px;
+    }
+    .main .texts p.title{
+        font-size: 17px;
+    }
+    .main .texts p.subtitle{
+        font-size: 9px;
+    }
+
+
+    .divisor{
+        padding: 0 10px;
+    }
+  
+    .divisor .item{
+       position: relative;
+       background: #292b2e;
+       margin-left: 5px;
+       height: 400px;
+       width: 100%;
+    }    
+
+    .divisor .item .infoQa {
+        width: 100%;
+
+    }
+
+    .divisor .item .infoQa p{
+        width: 330px;
+    }
+
+    .divisor .item .infoQa h3{
+        font-size: 20px ;
+        width: 289px;
+        margin-bottom: 30px;
+    }
+
+    .divisor .item .infoQa #bordao {
+        width: 300px;
+    }
+
+
+    .divisor .item .infoTask p {
+        width: 305px;
+        margin-bottom: 0px;
+    }
+
+    .divisor .item .infoTcc p {
+        width: 330px;
+    }
+
+
+    footer .start button {
+        margin-right: 45px;
+    }
+   
+
+} 
+
+@media screen and (max-height: 900px) and (max-width: 530px){
     
     .divisor {
         height: 900px;
