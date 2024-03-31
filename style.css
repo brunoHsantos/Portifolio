@@ -12,10 +12,12 @@ body{
     background: hwb(0 93% 6%);
 }
 
+/* Página html */
 html {
     scroll-behavior: smooth;
 }
 
+/* Logo */
 #logoBS {
     position: absolute;
     top: 10px;
@@ -24,7 +26,7 @@ html {
     height: 80px;  
 }
 
-
+/* Nav bar */
 .navbar{
     margin-top: 30px;
     display: flex;
@@ -60,7 +62,7 @@ html {
 }
 
 
-
+/* Botao para baicar CV */
 .hire-btn{
     position: absolute;
     top: 20px;
@@ -80,7 +82,7 @@ html {
 }
 
 
-
+/* Menu principal */
 .main{
     margin-top: 50px;
     display: flex;
@@ -133,7 +135,7 @@ html {
 
 
 
-
+/* Div de cards */
 .divisor{
     margin-top: 30px;
     margin-bottom: 60px;
@@ -162,7 +164,7 @@ html {
 
 
 
-
+/* Card de qualidade e teste de software */
 .divisor .item .infoQa{
     display: flex;
     flex-direction: column;
@@ -196,7 +198,7 @@ html {
 
 
 
-
+/* card do projeto Aplicativo de tarefas */
 .divisor .item .infoTask{
     display: flex;
     flex-direction: column;
@@ -236,7 +238,7 @@ html {
 
 
 
-
+/* card do trabalho de tcc */
 .divisor .item .infoTcc{
     display: flex;
     flex-direction: column;
@@ -275,7 +277,7 @@ html {
 
 
 
-
+/* topico sobre mim e separador de conteudos */
 .seprator{
     border: 1px solid #fb8c00;
     margin: 50px 50px 30px;
@@ -325,7 +327,7 @@ html {
 
 
 
-
+/* topico skills */
 .skills{
     display: flex;
     justify-content: space-around;
@@ -378,7 +380,7 @@ html {
 }
 
 
-
+/* rodape final */
 footer{
     position: relative;
     background: #1c1c1c;
@@ -513,7 +515,7 @@ footer .cols .news-col form button i{
 
 
 
-
+/* tornando o site responsaivo a cada proporcao de tela */
 @media screen and (max-width: 1600px) {
 
     .main .texts{
